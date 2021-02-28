@@ -1,0 +1,155 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "left-side right-side";
+}
+.left-side {
+	margin-left: 2%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "left-side-top"
+    "left-side-bottom";
+  grid-area: left-side;
+}
+.left-side-top { grid-area: left-side-top; }
+.left-side-bottom { grid-area: left-side-bottom; }
+.right-side {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "right-side-top"
+    "right-side-bottom";
+  grid-area: right-side;
+}
+.right-side-top { grid-area: right-side-top; }
+.right-side-bottom { grid-area: right-side-bottom; }
+
+.top-menu{
+	min-width: 100%;
+	min-height: 5%;
+	background-color: #F5F5F5;
+	-webkit-box-shadow: 0px 10px 13px -7px #CDCDCD, 0px 23px 50px -1px rgba(0,0,0,0); 
+	box-shadow: 0px 10px 13px -7px #CDCDCD, 0px 23px 50px -1px rgba(0,0,0,0);
+}
+
+.btn {
+  border-radius: 3px;
+  padding: 5px 15px;
+  font-size: 22px;
+  text-decoration: none;
+  margin: 10px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-bottom {
+  border-radius: 2px;
+  padding: 5px 15px;
+  font-size: 22px;
+  text-decoration: none;
+  text-align: left;
+  border: 2px solid #BFBFBF;
+  width: 97%;
+}
+
+.button-null {
+  background-color: #F7F7F7;
+}
+
+.button-null:hover {
+  background-color: #E7E7E7;
+}
+
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+
+}
+.blue {
+  background-color: #8C8C8C;
+
+}
+
+.blue:hover {
+  background-color: #A2A2A2;
+}
+
+.green {
+  background-color: #55acee;
+ 
+}
+
+.green:hover {
+  background-color: #6FC6FF;
+}
+
+.red {
+  background-color: #e74c3c;
+
+}
+
+.red:hover {
+  background-color: #FF6656;
+}
+.button-left-side-top{
+text-align: right;
+}
+.wifi{
+	margin-top: 0.2%;
+	margin-left: 1%;
+	position: absolute;
+}
+h1{
+	margin-top: 0.5%;
+	margin-left: 3.5%; 
+		position: absolute;
+}
+
+.form-control-top-right{
+width: 94%;
+height: 30px;
+}
+.form-control-top-left{
+width: 97%;
+height: 30px;
+}
+.form-control-bottom-left{
+width: 97%;
+height: 50vh;
+}
+.add-button{
+	height: 30px;
+}
+.footer{
+	margin-top: 2%;
+	background-color: #596981;
+	width: 100%;
+	height: 8%;
+
+}
+.footer-img{
+	
+  margin-left: 45%;
+  margin-right: auto;
+  display: inline;
+}
+.imgLogo{
+margin-left: 20px;
+margin-top: 40px;
+width: 1.3%;
+}
